@@ -9,11 +9,11 @@ def main(ctx):
     # Current version branch (used to determine when changes are supposed to be pushed)
     # pushes to base_branch will trigger a build in deployment_branch but pushing
     # to fix-typo branch won't
-    base_branch = latest_version
+    base_branch = "simplification"
 
     # Version branches never deploy themselves, but instead trigger a deployment in deployment_branch
     # This must not be changed in version branches
-    deployment_branch = "master"
+    deployment_branch = "simplification_master"
 
     return [
         build(ctx, latest_version, deployment_branch, base_branch),
