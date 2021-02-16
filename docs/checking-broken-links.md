@@ -55,7 +55,7 @@ If invalid xrefs are detected, it will output them to the console, You can see t
 ```console
 worktree: /var/www/owncloud/docs | component: server | version: master
   path: modules/admin_manual/nav.adoc | xref: configuration/server/security/password-policy.adoc
-  path: modules/admin_manual/pages/configuration/files/external_storage_configuration_gui.adoc | xref: server/import_ssl_cert.adoc
+  path: modules/admin_manual/pages/configuration/files/external_storage/configuration.adoc | xref: server/import_ssl_cert.adoc
   path: modules/admin_manual/pages/configuration/files/file_sharing_configuration.adoc | xref: server/configuration/server/security/password_policy.adoc
 ```
 
@@ -86,7 +86,7 @@ All the others in the list are example links, and therefore not broken.
 
 ### Linkcheck by Filip Hracek
 
-This is a extremely fast and very comfortable / configurable link checker.
+This is an extremely fast and very comfortable / configurable link checker.
 
 A description of ``linkcheck`` can be found [here](https://github.com/filiph/linkcheck#linkcheck).
 Follow [this](https://github.com/filiph/linkcheck#step-1-install-dart) procedure,
